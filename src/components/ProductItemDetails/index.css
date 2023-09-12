@@ -1,0 +1,194 @@
+.product-details-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  height: 500px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.heading-product-detail {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.price-text-product-detail {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #12022f;
+}
+.rating-product-details {
+  background-color: #3b82f6;
+  width: 55px;
+  height: 35px;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+.star-image-product-detail {
+  height: 17px;
+  width: 17px;
+}
+
+.rating-count-product-detail {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.rating-count-and-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.description-product-detail {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #616e7c;
+}
+
+.available-brand-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #12022f;
+}
+
+.span-element {
+  color: #475569;
+  font-weight: 400;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+}
+
+.count {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #12022f;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.add-to-cart-button {
+  background-color: #3b82f6;
+  width: 110px;
+  height: 35px;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-width: 0px;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.description-container {
+  width: 50%;
+}
+
+.image-container {
+  width: 50%;
+}
+
+.similar-details-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+.similar-products-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e293b;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.error-image-product-detail {
+  width: 60%;
+  height: 400px;
+}
+
+.product-not-found-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-top: 30px;
+}
+
+.continue-shopping-button {
+  background-color: #3b82f6;
+  width: 150px;
+  height: 35px;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-width: 0px;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.failure-view-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.plus-minus-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .product-image {
+    width: 100%;
+  }
+  .description-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
